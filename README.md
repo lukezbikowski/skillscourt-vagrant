@@ -12,4 +12,4 @@ vagrant up
 vagrant ssh
 
 
-4. you should be in
+you should be in
