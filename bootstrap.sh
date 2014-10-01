@@ -6,8 +6,7 @@ rbenv global 2.1.2
 rbenv local 2.1.2
 rbenv rehash
 
-cd ~/
-git clone https://github.com/lukezbikowski/skillscourt-api
+git clone https://github.com/lukezbikowski/skillscourt-api /vagrant
 gem install bundler
-cd ~/skillscourt-api
+cd /vagrant
 bundle install --without=production
